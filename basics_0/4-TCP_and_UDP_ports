@@ -1,3 +1,5 @@
 #!/usr/bin/env bash
 # Muestra los puertos TCP/UDP en escucha con PID y nombre de programa
-netstat -tulnp
+
+netstat -tulpn
+netstat -xlp
