@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Display all active IPv4 addresses
+
+ifconfig | grep -oP '(?<=inet\s)\d+(\.\d+){3}' | while IFS= read -r ip; do echo "$ip$"; done
