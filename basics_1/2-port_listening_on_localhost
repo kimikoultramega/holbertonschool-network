@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+# Escucha en el puerto 98 de localhost y muestra todo lo que llegue
+
+nc -l 98
